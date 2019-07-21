@@ -1,0 +1,10 @@
+$borderColour: red;
+$elementPadding: 5px;
+.container {
+    border: 2px ridge $borderColour;
+    width: 100%;
+    
+    * {
+        padding: $elementPadding;
+    }
+}
